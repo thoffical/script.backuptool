@@ -1,0 +1,14 @@
+<settings>
+    <!-- Section: General Information -->
+    <category label="General">
+        <setting id="ios_disclaimer" type="lsep" label="Important Note for iOS Users" />
+        <setting id="ios_info" type="labelenum" label="This add-on does not work on iOS due to strict file system restrictions. Please use an alternative device for backup." values=" " default="0" />
+    </category>
+    
+    <!-- Section: Backup Settings -->
+    <category label="Backup Settings">
+        <setting id="backup_path" type="file" label="Backup Path" default="" browse="files" />
+        <setting id="include_addons" type="bool" label="Include Add-ons in Backup" default="true" />
+        <setting id="include_userdata" type="bool" label="Include Userdata in Backup" default="true" />
+    </category>
+</settings>
