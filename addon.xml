@@ -11,5 +11,7 @@
             **Note:** This add-on does not work on iOS due to strict file system restrictions. Please use an alternative device.
         </description>
         <platform>all</platform>
+        <icon>resources/icons/icon.png</icon>
+        <fanart>resources/fanart/fanart.jpg</fanart>
     </extension>
 </addon>
