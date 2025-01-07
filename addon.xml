@@ -1,0 +1,17 @@
+<addon id="script.kodi.backup.external" version="1.0.0" name="Kodi External Storage Backup"
+       provider-name="idealkooks" extension="xbmc.python.script">
+    <requires>
+        <import addon="xbmc.python" version="3" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Backup Kodi setup to external storage devices</summary>
+        <description lang="en">
+            This add-on allows you to back up your Kodi configuration, add-ons, and settings to external storage devices such as USB drives or SD cards.
+            <br/><strong>Note:</strong> This add-on does not work on iOS due to strict file system restrictions. Please use an alternative device.
+        </description>
+        <platform>all</platform>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+    </extension>
+</addon>
